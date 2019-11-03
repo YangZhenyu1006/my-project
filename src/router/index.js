@@ -5,6 +5,7 @@ import Home from '../views/Home/index.vue'
 import welcome from '../views/welcome/index.vue'
 import NotFound from '../views/404/index.vue'
 import local from '../utils/local'
+import Article from '../views/article/index.vue'
 
 Vue.use(VueRouter)
 const router = new VueRouter({
@@ -24,6 +25,11 @@ const router = new VueRouter({
       {
         path: '/',
         component: welcome
+      },
+      // 内容
+      {
+        path: '/article',
+        component: Article
       }
     ]
   },
