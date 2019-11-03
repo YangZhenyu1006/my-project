@@ -7,6 +7,7 @@ import router from '@/router'
 
 import axios from '@/api'
 import MyBread from './components/my-bread.vue'
+import '@/styles/index.less'
 // plugin是插件的意思
 import plugin from '@/components'
 Vue.prototype.$http = axios
