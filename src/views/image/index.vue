@@ -40,6 +40,7 @@
         <!-- 上传组件 -->
         <el-upload
             class="avatar-uploader"
+            style="height:280px;"
             action="http://ttapi.research.itcast.cn/mp/v1_0/user/images"
             :headers="headers"
             name="image"
